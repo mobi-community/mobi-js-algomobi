@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(a, b, c) {
+        // let answer, max;
+        // 내답 틀림
+        // if (a > b) max = a;
+        // else max = b;
+        // if (c > max) max = c;
+
+        // if ((max = a)) {
+        //   if (b + c <= max) answer = "NO";
+        //   else answer = "YES";
+        // }
+        // if ((max = b)) {
+        //   if (a + c <= max) answer = "NO";
+        //   else answer = "YES";
+        // }
+        // if ((max = c)) {
+        //   if (a + b <= max) answer = "NO";
+        //   else answer = "YES";
+        // }
+
+        //정답
+        let answer = "YES",
+          max;
+        let total = a + b + c;
+        if (a > b) max = a;
+        else max = b;
+        if (c > max) max = c;
+
+        if (total - max <= max) answer = "NO";
+
+        return answer;
+      }
+
+      console.log(solution(7, 3, 11));
+    </script>
+  </body>
+</html>
