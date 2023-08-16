@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(arr) {
+        // 내답 틀림
+        // let odd = [];
+        // for (let i = 0; i < arr.length; i++) {
+        //   if (arr[i] % 2 > 0) odd.push(arr[i]);
+        // }
+        // let odd_min = Math.min(...odd);
+        // answer = odd_min;
+        // return answer;
+
+        //for of 사용하기!
+        let answer = [];
+        let sum = 0;
+        let min = Number.MAX_SAFE_INTEGER;
+        for (let x of arr) {
+          if (x % 2 === 1) {
+            sum += x;
+            if (x < min) min = x;
+          }
+        }
+        answer.push(sum);
+        answer.push(min);
+
+        // 누적 연산은 처음 더해줄 변수 초기값을 0으로 두고 시작
+        // 변수 += for문으로 도는 변수
+        // 최소/최대값 구할때는 min,max를 Number.MAX_SAFE_INTEGER로 지정
+        // if(변수 < min) min = 변수
+        // 위 예시처럼 min or max에 검사하며 담아줌
+
+        return answer;
+      }
+
+      arr = [12, 77, 38, 41, 53, 92, 85];
+      console.log(solution(arr));
+    </script>
+  </body>
+</html>
