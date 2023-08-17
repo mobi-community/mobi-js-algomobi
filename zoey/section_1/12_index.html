@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      //내답
+      //   function solution(s) {
+      //     let answer = [];
+      //     for (let x of s) {
+      //       x = x.toUpperCase();
+      //       answer.push(x);
+      //     }
+
+      //     return answer.join("");
+      //   }
+      function solution(s) {
+        let answer = "";
+
+        // 정답 1
+        // for (let x of s) {
+        //   if (x === x.toLowerCase()) {
+        //     answer += x.toUpperCase();
+        //   } else {
+        //     answer += x;
+        //   }
+        // }
+
+        // 정답 2 아스키코드
+        for (let x of s) {
+          let num = x.charCodeAt();
+          //String.fromCharCode(num - 32);
+          // -32를 하면 소문자에서 대문자로 변경되고
+          // +32를 하면 대문자에서 소문자로 변경된다
+          if (num >= 97 && num <= 122) answer += String.fromCharCode(num - 32);
+          else answer += x;
+        }
+        return answer;
+      }
+
+      let str = "ItisTimeToStudy";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>

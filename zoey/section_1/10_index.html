@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(s, t) {
+        //내답 === 정답
+        // let answer = 0;
+        // for (let x of s) {
+        //   if (x === t) answer++;
+        // }
+
+        //split 사용 정답
+        let answer = s.split(t).length;
+
+        return answer - 1;
+      }
+
+      let str = "COMPUTERPROGRAMMING";
+      console.log(solution(str, "G"));
+    </script>
+  </body>
+</html>

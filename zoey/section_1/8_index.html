@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(arr) {
+        //내답 틀림
+        // let answer = arr;
+        // let totalSum = 0;
+        // let twoSum = 0;
+
+        // for (let i = 0; i < answer.length; i++) {
+        //   totalSum = totalSum + answer[i];
+        //   for (let j = 0; j < arr.length; j++) {
+        //     if (i !== j) {
+        //       twoSum = answer[i] + answer[j];
+        //       if (totalSum - twoSum === 100) {
+        //         answer.splice(i, 1);
+        //         answer.splice(j, 1);
+        //       }
+        //     }
+        //   }
+        // }
+
+        let answer = arr;
+        let sum = answer.reduce((a, b) => a + b, 0);
+        let flag = 0;
+        for (let i = 0; i < 8; i++) {
+          for (let j = i + 1; j < 9; j++) {
+            if (sum - (answer[i] + answer[j]) === 100) {
+              answer.splice(j, 1);
+              answer.splice(i, 1);
+              flag = 1;
+              break;
+            }
+          }
+          if (flag === 1) break;
+        }
+
+        return answer;
+      }
+
+      let arr = [22, 7, 21, 19, 10, 15, 25, 8, 13];
+      console.log(solution(arr));
+    </script>
+  </body>
+</html>

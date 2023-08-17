@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = 0;
+
+        //내답
+        // let ABC = s.replace(/[A-Z]/g, "1");
+        // for (let x of ABC) {
+        //   if (x === "1") answer++;
+        // }
+
+        //정답 toUpperCase()를 적용만하면 대문자만 남겨짐
+        // for (let x of s) {
+        //   if (x === x.toUpperCase()) answer++;
+        // }
+
+        // 아스키넘버 활용 정답
+        for (let x of s) {
+          let num = x.charCodeAt();
+          // 대문자의 아스키코드는 65~90 까지이다
+          // 소문자는 아스키코드 97~122 이다
+          if (num >= 65 && num <= 90) answer++;
+        }
+        return answer;
+      }
+
+      let str = "KoreATimeGood";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>

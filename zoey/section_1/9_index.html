@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(str) {
+        // 내답
+        //     let answer = str.split("");
+        //     for (let i = 0; i < answer.length; i++) {
+        //       if (answer[i] === "A") {
+        //         answer[i] = "#";
+        //       }
+        //     }
+
+        //     return answer.join("");
+
+        // 정답1 => 문자열도 for of 문으로 그냥 탐색 가능
+        //     let answer = "";
+        //     for (let x of str) {
+        //       if (x === "A") answer += "#";
+        //       else answer += x;
+        //     }
+        //     return answer;
+        //   }
+        // 정답2 => replace 사용 + 정규표현식 g가 전역으로 검사
+        let answer = str;
+        answer = answer.replace(/A/g, "#");
+        return answer;
+      }
+
+      let str = "BANANA";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>

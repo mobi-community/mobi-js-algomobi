@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = "";
+        let mid = Math.floor(s.length / 2);
+
+        // 내답 실패
+        // for (let i = 0; i < s.length; i++) {
+        //   if (s.length % 2 === 0) {
+        //     answer += s[mid - 1];
+        //     answer += s[mid];
+        //   } else answer += s[mid];
+        // }
+        // 정답 subString(시작하는 인덱스, 끝나기전 인덱스)
+        // 문자에서 어떤 부분을 뽑아낼때 사용함!
+        if (s.length % 2 === 1) answer = s.substring(mid, mid + 1);
+        else answer = s.substring(mid - 1, mid + 1);
+
+        return answer;
+      }
+      console.log(solution("studyy"));
+    </script>
+  </body>
+</html>
