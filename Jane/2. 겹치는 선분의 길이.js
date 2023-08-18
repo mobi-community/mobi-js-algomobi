@@ -6,31 +6,31 @@
 두 개 이상의 선분이 겹치는 부분의 길이를 return 하도록 solution 함수를 완성해보세요.
 */
 
+// 배열의 길이를 구해주는 함수
+const getLength = (array) => array[1] - array[0] + 1;
+
+// 시작점, 끝점으로 배열 생성하는 함수
+const makeArray = (array) =>
+  Array.from({ length: getLength(array) }, (_, i) => array[0] + i);
+
+// 두 배열에서 연속되는 값이 겹치는 부분이 있는지 검사해주는 함수
+const findOverlap = (arr1, arr2) => {
+  for (let i = 0; i < arr1.length; i++) {
+    if (
+      arr2.includes(arr1[i]) &&
+      arr1.includes(arr1[i] + 1) &&
+      arr2.includes(arr1[i] + 1)
+    ) {
+      overlap.push(arr1[i]);
+    }
+  }
+};
+
 function solution(lines) {
-  // 배열의 길이를 구해주는 함수
-  const getLength = (array) => array[1] - array[0] + 1;
-
-  // 시작점, 끝점으로 배열 생성하는 함수
-  const makeArray = (array) =>
-    Array.from({ length: getLength(array) }, (_, i) => array[0] + i);
-
   // 1. 시작점과 끝점 사이의 값을 모두 담은 배열로 변환
   const newArr = lines.map((arr) => makeArray(arr));
 
   const overlap = [];
-
-  // 두 배열에서 연속되는 값이 겹치는 부분이 있는지 검사해주는 함수
-  const findOverlap = (arr1, arr2) => {
-    for (let i = 0; i < arr1.length; i++) {
-      if (
-        arr2.includes(arr1[i]) &&
-        arr1.includes(arr1[i] + 1) &&
-        arr2.includes(arr1[i] + 1)
-      ) {
-        overlap.push(arr1[i]);
-      }
-    }
-  };
 
   // 2. 겹치는 부분을 검사하여 overlap 배열에 담아주기
   findOverlap(newArr[0], newArr[1]);
