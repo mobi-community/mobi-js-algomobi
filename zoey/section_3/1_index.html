@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        // let answer = 'YES';
+        //내답 틀림
+        // const low = s.toLowerCase();
+        // const n = s.length;
+        // for (let i = 0; i < n; i++) {
+        //   if (low[i] === low[n - 1 - i]) answer = 'YES';
+        //   else if (low[i] !== low[n - 1 - i]) answer = 'NO';
+        // }
+        let answer = 'YES';
+        s = s.toLowerCase();
+        // let len = s.length;
+        // for (let i = 0; i < Math.floor(len / 2); i++) {
+        //   if (s[i] !== s[len - i - 1]) return 'NO';
+        // }
+        sReverse = s.split('').reverse().join('');
+        if (s !== sReverse) return 'NO';
+        return answer;
+      }
+      let str = 'gooooooooG';
+      console.log(solution(str));
+    </script>
+  </body>
+</html>

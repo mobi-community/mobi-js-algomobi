@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(str) {
+        // let answer = '';
+
+        // str = str.replace(/[^0-9]/g, '');
+        // console.log(str);
+        // 답 1
+        //     for (let x of str) {
+        //       if (!isNaN(x)) {
+        //         answer += x;
+        //       }
+        //     }
+
+        //     return parseInt(answer);
+        //   }
+        // 답 2
+        let answer = 0;
+        for (let x of str) {
+          if (!isNaN(x)) {
+            answer = answer * 10 + Number(x);
+          }
+        }
+        return answer;
+
+        // 답 2번 answer 구해과는 과정
+        //     let str = "a1b2c3";
+        // let answer = 0;
+
+        // // 첫 번째 순서: '1'이 나올 때
+        // let x = "1"; // 숫자 '1'을 나타내는 문자
+        // answer = answer * 10 + Number(x); // 0 * 10 + 1 => 1
+        // console.log(answer); // 1이 출력됩니다.
+
+        // // 두 번째 순서: '2'가 나올 때
+        // x = "2"; // 숫자 '2'를 나타내는 문자
+        // answer = answer * 10 + Number(x); // 1 * 10 + 2 => 12
+        // console.log(answer); // 12가 출력됩니다.
+
+        // // 세 번째 순서: '3'이 나올 때
+        // x = "3"; // 숫자 '3'을 나타내는 문자
+        // answer = answer * 10 + Number(x); // 12 * 10 + 3 => 123
+        // console.log(answer); // 123이 출력됩니다.
+      }
+
+      let str = 'g0en2T0s8eSoft';
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
