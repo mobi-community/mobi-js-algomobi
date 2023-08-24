@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(n, arr) {
+        let answer,
+          max = Number.MIN_SAFE_INTEGER;
+
+        //     for (let x of arr) {
+        //       let sum = 0;
+        //       x = x.toString();
+        //       for (let i = 0; i < x.length; i++) {
+        //         sum += parseInt(x[i]);
+        //       }
+        //     }
+
+        //정답 1
+        // for (let x of arr) {
+        //   let sum = 0,
+        //     tmp = x;
+        //   while (tmp) {
+        //     sum += tmp % 10;
+        //     tmp = Math.floor(tmp / 10);
+        //   }
+        //   if (sum > max) {
+        //     max = sum;
+        //     answer = x;
+        //   } else if (sum === max) {
+        //     if (x > answer) answer = x;
+        //   }
+        // }
+
+        //정답 2
+        for (let x of arr) {
+          let sum = x
+            .toString()
+            .split('')
+            .reduce((a, b) => a + Number(b), 0); // 모든 자리수의 합 구하기
+          // toString, split, reduce 사용
+          if (sum > max) {
+            max = sum;
+            answer = x;
+          } else if (sum === max) {
+            if (x > answer) answer = x;
+          }
+        }
+
+        return answer;
+      }
+
+      let arr = [137, 460, 603, 40, 521, 128, 123];
+      console.log(solution(7, arr));
+    </script>
+  </body>
+</html>

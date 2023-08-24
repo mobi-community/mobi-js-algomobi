@@ -25,3 +25,20 @@
 
 </details>
 </div>
+
+<details>
+<summary><h3>📄 2주차 분량</h3></summary>
+<div markdown="1">
+➡️ <b>풀이 기간</b>: 23.8.22 ~ 23.8.29
+  
+➡️ 프로그래머스 Lv.0 5문제 (정답률 75 ~ 80%)
+
+[외계어 사전](https://school.programmers.co.kr/learn/courses/30/lessons/120869) /
+[삼각형의 완성조건 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/120868) /
+[구슬을 나누는 경우의 수](https://school.programmers.co.kr/learn/courses/30/lessons/120840) /
+[문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902) /
+[영어가 싫어요](https://school.programmers.co.kr/learn/courses/30/lessons/120894)
+
+
+</details>
+</div>

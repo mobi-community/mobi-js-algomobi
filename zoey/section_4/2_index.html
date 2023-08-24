@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function isPrime(n) {
+        if (n <= 1) {
+          return false; // 1보다 작거나 같은 경우, 소수가 아닙니다.
+        }
+
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+          if (n % i === 0) {
+            return false; // 2부터 n의 제곱근까지 나누어 떨어지는 경우 소수가 아닙니다.
+          }
+        }
+
+        return true; // 위 조건을 모두 통과할 경우 소수입니다.
+      }
+
+      function solution(s) {
+        let answer = [];
+        for (let x of s) {
+          let rex = x.toString().split('').reverse().join('');
+          let numx = Number(rex);
+          if (isPrime(numx)) {
+            answer.push(numx);
+          }
+        }
+
+        return answer;
+      }
+
+      function isPrime2(n) {
+        if (n <= 1) {
+          return false;
+        }
+
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+          if (n % i === 0) {
+            return false;
+          }
+        }
+
+        return true; // 위 조건을 모두 통과할 경우 소수입니다.
+      }
+
+      function solution2(arr) {
+        let answer = [];
+        for (let x of arr) {
+          let res = 0;
+          while (x) {
+            let t = x % 10;
+            res = res * 10 + t;
+            x = parseInt(x / 10);
+          }
+          if (isPrime2(res)) answer.push(res);
+        }
+
+        return answer;
+      }
+
+      let arr = [32, 55, 62, 20, 250, 370, 200, 30, 100];
+      console.log(solution(arr));
+      console.log(solution2(arr));
+    </script>
+  </body>
+</html>
