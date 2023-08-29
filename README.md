@@ -42,3 +42,18 @@
 
 </details>
 </div>
+
+<details>
+<summary><h3>📄 3주차 분량</h3></summary>
+<div markdown="1">
+➡️ <b>풀이 기간</b>: 23.8.29 ~ 23.9.5
+  
+➡️ 프로그래머스 Lv.0 4문제 (정답률 70 ~ 75% 2문제, 80 ~ 85% 2문제)
+
+[저주의 숫자 3](https://school.programmers.co.kr/learn/courses/30/lessons/120871) /
+[치킨 쿠폰](https://school.programmers.co.kr/learn/courses/30/lessons/120884) /
+[컨트롤 제트](https://school.programmers.co.kr/learn/courses/30/lessons/120853) /
+[진료순서 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/120835)
+
+</details>
+</div>
