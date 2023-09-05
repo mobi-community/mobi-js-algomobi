@@ -57,3 +57,19 @@
 
 </details>
 </div>
+
+<details>
+<summary><h3>📄 4주차 분량</h3></summary>
+<div markdown="1">
+➡️ <b>풀이 기간</b>: 23.9.5 ~ 23.9.12
+  
+➡️ 프로그래머스 각자 1문제씩 선정
+
+[폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845?language=javascript) /
+[로그인 성공?](https://school.programmers.co.kr/learn/courses/30/lessons/120883) /
+[문자열의 앞의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181907) /
+[커피 심부름](https://school.programmers.co.kr/learn/courses/30/lessons/181837) / 
+[카운트 다운](https://school.programmers.co.kr/learn/courses/30/lessons/181899)
+
+</details>
+</div>
