@@ -30,14 +30,16 @@ const solution = (order) => {
   return priceArr.reduce((sum, num) => sum + num);
 };
 
+// reduce로만 풀어보기
+// 0으로 초기화 필요
+const reduce_sol = (order) =>
+  order.reduce((sum, menu) => sum + (menu.includes("latte") ? 5000 : 4500), 0);
+
+// ==================================================================
 console.log(
   solution(["cafelatte", "americanoice", "hotcafelatte", "anything"])
 );
 console.log(solution(["americanoice", "americano", "iceamericano"]));
-
-// reduce로만 풀어보기
-const reduce_sol = (order) =>
-  order.reduce((sum, menu) => sum + (menu.includes("latte") ? 5000 : 4500), 0);
 
 console.log(
   reduce_sol(["cafelatte", "americanoice", "hotcafelatte", "anything"])
