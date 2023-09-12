@@ -8,23 +8,6 @@
 // db : 회원 정보 :[["rardss", "123"], ["yyoom", "1234"], ["meosseugi", "1234"]]
 
 function solution(id_pw, db) {
-  //   for (let i = 0; i < db.length; i++) {
-  //     // 아이디 일치
-  //     if (db[i][0] == id_pw[0]) {
-  //       // 비밀번호 일치
-  //       if (db[i][1] == id_pw[1]) {
-  //         return console.log("login");
-  //       }
-  //       // 비밀번호 불일치
-  //       else if (db[i][1] !== id_pw[1]) {
-  //         return console.log("wrong pw");
-  //       }
-  //     }
-  //     // 아이디 불일치
-  //     else if (db[i][0] !== id_pw[0]) {
-  //       return console.log("fail");
-  //     }
-  //   }
   let answer = "";
   const [id, pw] = id_pw;
 
