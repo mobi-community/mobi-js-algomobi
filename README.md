@@ -73,3 +73,19 @@
 
 </details>
 </div>
+
+<details>
+<summary><h3>📄 5주차 분량</h3></summary>
+<div markdown="1">
+➡️ <b>풀이 기간</b>: 23.9.13 ~ 23.9.19
+  
+➡️ 프로그래머스 각자 1문제씩 선정
+
+[qr code](https://school.programmers.co.kr/learn/courses/30/lessons/181903) /
+[직사각형 넓이 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120860) /
+[주사위 게임](https://school.programmers.co.kr/learn/courses/30/lessons/181930) /
+[같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) / 
+[부분 문자열인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181843)
+
+</details>
+</div>
