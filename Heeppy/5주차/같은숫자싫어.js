@@ -14,3 +14,8 @@ function solution(arr) {
 }
 
 solution([1, 1, 3, 3, 0, 1, 1]);
+
+// ** 한줄짜리 코드
+function solution2(arr) {
+  return arr.filter((value, index) => value !== arr[index - 1]);
+}
