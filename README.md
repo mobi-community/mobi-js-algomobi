@@ -89,3 +89,19 @@
 
 </details>
 </div>
+
+<details>
+<summary><h3>📄 6주차 분량</h3></summary>
+<div markdown="1">
+➡️ <b>풀이 기간</b>: 23.9.20 ~ 23.9.26
+  
+➡️ 프로그래머스 각자 1문제씩 선정
+
+[무작위로 K개의 수 뽑기](https://school.programmers.co.kr/learn/courses/30/lessons/181858) /
+[K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) /
+[최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) /
+[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) / 
+[접두사인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181906)
+
+</div>
+</details>
