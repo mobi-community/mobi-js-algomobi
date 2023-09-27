@@ -105,3 +105,19 @@
 
 </div>
 </details>
+
+<details>
+<summary><h3>📄 7주차 분량</h3></summary>
+<div markdown="1">
+➡️ <b>풀이 기간</b>: 23.9.27 ~ 23.10.3
+  
+➡️ 프로그래머스 각자 1문제씩 선정
+
+[세 개의 구분자](https://school.programmers.co.kr/learn/courses/30/lessons/181862) /
+[2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901) /
+[베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) /
+[조건에 맞게 수열 변환하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181882) / 
+[특이한 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/120880)
+
+</div>
+</details>
