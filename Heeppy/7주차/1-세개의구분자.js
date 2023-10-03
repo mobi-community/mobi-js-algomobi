@@ -1,14 +1,13 @@
 function solution(myStr) {
-  var s = myStr.indexOf("a");
-  var e = myStr.indexOf("b");
-  var c = myStr.indexOf("c");
-  var res = myStr.substring(s, e, c);
-  console.log(res);
-  return;
-}
+  const answer = myStr
+    .split("a")
+    .join("_")
+    .split("b")
+    .join("_")
+    .split("c")
+    .join("_")
+    .split("_")
+    .filter((item) => item.length !== 0);
 
-/**
- * 1. a,b,c가 들어있는 인덱스 번호를 찾는다.
- *
- *
- */
+  return answer.length !== 0 ? answer : ["EMPTY"];
+}
