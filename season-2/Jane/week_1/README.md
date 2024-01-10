@@ -5,6 +5,7 @@
 - [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681) (level-1, 정답룔 69%) / 풀이 소요 시간 25분
 - [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) (level-1, 정답룔 69%) / 풀이 소요 시간 3분
 - [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) (level-2, 정답률 69%) / 풀이 소요 시간 14분
+- [구명 보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) (level-2, 정답률 69%) / 풀이 소요 시간 60분
 
 ### 🤖 백준
 
