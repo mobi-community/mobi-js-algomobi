@@ -32,7 +32,7 @@ function solution(word) {
 
     dic.sort();
 
-    return dic.findIndex(val => val === word);
+    return dic.findIndex(val => val === word) + 1;
 }
 
 const word = 'AAAE';
