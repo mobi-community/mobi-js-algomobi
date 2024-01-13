@@ -7,6 +7,8 @@
 - [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) (level-2, 정답률 69%) / 풀이 소요 시간 14분
 - [구명 보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) (level-2, 정답률 69%) / 풀이 소요 시간 60분
 - [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985#) (level-2, 정답률 68%) / 풀이 소요 시간 27분
+- [콜라 문제](https://school.programmers.co.kr/learn/courses/30/lessons/132267#) (level-1, 정답률 68%) / 풀이 소요 시간 32분
+- [추억 점수](https://school.programmers.co.kr/learn/courses/30/lessons/176963) (level-1, 정답률 68%) / 풀이 소요 시간 8분
 
 ### 🤖 백준
 
