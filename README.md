@@ -19,6 +19,11 @@
         </a>  
         </td>
         <td>
+        <a href="https://github.com/Sueddd">
+            <img src="https://avatars.githubusercontent.com/u/111338578?v=4" width="120px" height="120px"/>
+        </a>
+        </td>
+        <td>
         <a href="https://github.com/JeongwooHam">
             <img src="https://avatars.githubusercontent.com/u/123251211?v=4" width="120px" height="120px"/>
         </a>
@@ -35,6 +40,9 @@
     </th>
     <th>
       Zoey
+    </th>
+    <th>
+      Heepy
     </th>
     <th>
       Jane
