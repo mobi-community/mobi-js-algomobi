@@ -6,6 +6,7 @@
 - [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) (level-2, 정답률 52%) / 풀이 소요 시간 16분
 - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) (level-1, 정답률 55%) / 풀이 소요 시간 27분
 - [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) (level-2, 정답률 61%) / 풀이 소요 시간 76분
+- [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) (level-2, 정답률 63%) / 풀이 소요 시간 23분
 
 ### 🤖 백준
 
