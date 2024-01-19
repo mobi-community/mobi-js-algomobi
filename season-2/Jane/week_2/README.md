@@ -8,6 +8,7 @@
 - [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) (level-2, 정답률 61%) / 풀이 소요 시간 76분
 - [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) (level-2, 정답률 63%) / 풀이 소요 시간 23분
 - [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953) (level-2, 정답률 68%) / 풀이 소요 시간 18분
+- [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626#) (level-2, 58%) / 풀이 소요 시간 분
 
 ### 🤖 백준
 
@@ -18,10 +19,12 @@
   |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
   |정렬, 해시|깊이/너비 우선 탐색(DFS/BFS)|스택/큐|힙(Heap)|완전탐색|동적계획법(Dynamic Programming)|탐욕법(Greedy)|
 - `N개의 최소공배수` 문항을 빠르게 풀이하고 힙 관련 문제를 풀어보려 했는데 1시간 이상을 투자했음에도 풀이법에 접근하지 못했다. 내일 다시 풀이해볼 예정 (0118)
+  - 결국 힙 관련 문제인 `더 맵게`를 제대로 풀이하지 못했다. 클래스 문법과 힙 알고리즘에 대해 제대로 공부한 뒤 다시 풀이해봐야 할 것 같다.
 
 > **공부해볼 것**
 
 ```
 - dfs, bfs
 - 힙(Heap)
+- 클래스 문법 (특히 this)
 ```
