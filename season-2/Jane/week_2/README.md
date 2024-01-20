@@ -8,7 +8,15 @@
 - [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) (level-2, 정답률 61%) / 풀이 소요 시간 76분
 - [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) (level-2, 정답률 63%) / 풀이 소요 시간 23분
 - [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953) (level-2, 정답률 68%) / 풀이 소요 시간 18분
-- [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626#) (level-2, 58%) / 풀이 소요 시간 분
+- [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626#) (level-2, 58%) / 풀이 소요 시간 154분
+- [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) (level-1, 62%) / 풀이 소요 시간 19분
+- [소수 찾기\_1](https://school.programmers.co.kr/learn/courses/30/lessons/12921) (level-1, 62%) / 풀이 소요 시간 28분
+- [소수 찾기\_2](https://school.programmers.co.kr/learn/courses/30/lessons/42839) (level-2, 52%) / 풀이 소요 시간 43분
+
+```
+실제 프로그래머스 페이지에서는 두 문제 다 그냥 '소수 찾기'로 되어 있으나
+구분을 위해 임의로 1, 2를 붙여 작성하였음
+```
 
 ### 🤖 백준
 
@@ -27,4 +35,5 @@
 - dfs, bfs
 - 힙(Heap)
 - 클래스 문법 (특히 this)
+- 에라토스테네스의 체 공식
 ```
