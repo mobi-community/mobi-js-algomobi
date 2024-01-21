@@ -15,7 +15,7 @@ function solution(numbers) {
             answer.push(val + numbers[i]);
         }
     });
-    return = [...new Set(answer)].sort()
+    return [...new Set(answer)].sort()
 }
 
 console.log(solution([2, 1, 3, 4, 1]));
