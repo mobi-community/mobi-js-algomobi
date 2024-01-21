@@ -12,6 +12,7 @@
 - [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) (level-1, 62%) / 풀이 소요 시간 19분
 - [소수 찾기\_1](https://school.programmers.co.kr/learn/courses/30/lessons/12921) (level-1, 62%) / 풀이 소요 시간 28분
 - [소수 찾기\_2](https://school.programmers.co.kr/learn/courses/30/lessons/42839) (level-2, 52%) / 풀이 소요 시간 43분
+- [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946#) (level-2, 62%) / 풀이 소요 시간 63분
 
 ```
 실제 프로그래머스 페이지에서는 두 문제 다 그냥 '소수 찾기'로 되어 있으나
