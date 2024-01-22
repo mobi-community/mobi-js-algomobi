@@ -9,19 +9,9 @@
 <table>
     <tr>
         <td>
-        <a href="https://github.com/yesoryeseul">
-            <img src="https://avatars.githubusercontent.com/u/123865139?v=4" width="120px" height="120px"/>
-        </a>
-        </td>
-        <td>
         <a href="https://github.com/zivivle">
             <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
         </a>  
-        </td>
-        <td>
-        <a href="https://github.com/Sueddd">
-            <img src="https://avatars.githubusercontent.com/u/111338578?v=4" width="120px" height="120px"/>
-        </a>
         </td>
         <td>
         <a href="https://github.com/JeongwooHam">
@@ -36,13 +26,7 @@
     </tr>
     <tr>
     <th>
-      Kei
-    </th>
-    <th>
       Zoey
-    </th>
-    <th>
-      Heepy
     </th>
     <th>
       Jane
