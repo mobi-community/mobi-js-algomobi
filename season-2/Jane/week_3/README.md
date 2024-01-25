@@ -4,6 +4,7 @@
 
 - [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577#) (level-2, 정답률 61%) / 풀이 소요 시간 32분
 - [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) (level-2, 정답률 65%) / 풀이 소요 시간 45분
+- [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) (level-2, 정답률 59%) / 풀이 소요 시간 37분
 
 ### 🤖 백준
 
