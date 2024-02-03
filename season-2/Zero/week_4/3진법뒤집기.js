@@ -12,7 +12,7 @@
 
 
 function solution(n) {
-    return parseInt(Number(n.toString(3).split('').reverse('').join('')), 3);
+    return parseInt(BigInt(n.toString(3).split('').reverse('').join('')), 3);
 }
 
 console.log(solution(45));
