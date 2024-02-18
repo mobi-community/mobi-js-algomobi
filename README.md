@@ -9,11 +9,6 @@
 <table>
     <tr>
         <td>
-        <a href="https://github.com/zivivle">
-            <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
-        </a>  
-        </td>
-        <td>
         <a href="https://github.com/JeongwooHam">
             <img src="https://avatars.githubusercontent.com/u/123251211?v=4" width="120px" height="120px"/>
         </a>
@@ -25,9 +20,6 @@
         </td>
     </tr>
     <tr>
-    <th>
-      Zoey
-    </th>
     <th>
       Jane
     </th>
