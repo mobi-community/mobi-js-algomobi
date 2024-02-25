@@ -10,6 +10,8 @@
 - [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335#) (level-2, 정답률 61%) / 풀이 소요 시간 20분
 - [이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628#) (level-3, 정답률 60%) / 풀이 소요 시간 28분
 - [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) (level-2, 정답률 58%) / 풀이 소요 시간 90분
+- [소수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12977) (level-1, 정답률 62%) / 풀이 소요 시간 15분
+- [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586#) (level-1, 56%) / 풀이 소요 시간 27분
 
 ### ✨ 회고
 
