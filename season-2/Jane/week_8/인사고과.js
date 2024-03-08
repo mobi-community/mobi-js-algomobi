@@ -10,19 +10,19 @@
 some을 사용했더니 계속 효율성에서 오류가 발생했다. 
 또한 전체 배열에 대해 인센티브 여부를 검사해서 시간이 더 오래 걸렸던 것 같다.
 some 대신 일반 for문을 사용하도록 수정하고 함수를 추상화 할 때 배열을 따로 받도록 하여 
-sum이 낮은 사원들은 아예 제외할 수 있도록 하였더니 호율성을 통과할 수 있었다.
+sum이 낮은 사원들은 아예 제외할 수 있도록 하였더니 효율성을 통과할 수 있었다.
 */
 
-function solution(scores) {
-  const isHigherScore = (a, r, idx, arr) => {
-    for (let i = 0; i < arr.length; i++) {
-      const [attitude, review] = arr[i];
-      if (idx === i) continue;
-      if (attitude > a && review > r) return true;
-    }
-    return false;
-  };
+const isHigherScore = (a, r, idx, arr) => {
+  for (let i = 0; i < arr.length; i++) {
+    const [attitude, review] = arr[i];
+    if (idx === i) continue;
+    if (attitude > a && review > r) return true;
+  }
+  return false;
+};
 
+function solution(scores) {
   const [wanho_attitude, wanho_review] = scores[0];
 
   // 만약 완호가 인센티브를 받지 못하면
